@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #141060bd;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #cfa9a9;
+}
+.navbar h2 {
+  color: #808c19;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 8px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content,.about {
+  max-width: 700px;
+  margin: 10px auto;
+  padding:22px 30px;
+}
+.home p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 25px 0;
+  border-bottom: 1px solid #f0f2f0;
+  border-radius: 3px;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px cadetblue;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #27167b;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+.blog-preview button {
+  margin-left: 5px;
+  background-color:darkgrey;
+  color:azure;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  font-weight: 600;
+}
+.blog-preview button:hover {
+  color:white;
+  background-color: #f1356d;
+}
+.form-label{
+  font-size: 18px;
+  padding: 15px 0px 5px 0px;
+  font-weight: 600;
+}
+.form{
+  margin:20px 30px;
+}
+.form button {
+  background-color:darkgrey;
+  color:azure;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 7px 20px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.form button:hover {
+  color:white;
+  background-color: #f1356d;
+}
+.button {
+  background-color:darkgrey;
+  color:azure;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 20px;
+  font-weight: 600;
+  margin-top: 18px;
+}
+.button:hover {
+  color:white;
+  background-color: #f1356d;
+}
